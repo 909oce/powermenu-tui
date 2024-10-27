@@ -1,5 +1,5 @@
 # Installation
-```git clone https://github.com/909oce/powermenu-tui```
+```git clone https://github.com/909oce/powermenu-tui.git```
 # Hyprland Example
 ![image](preview.png)
 
