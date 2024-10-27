@@ -1,5 +1,8 @@
-# Installation
+# Usage
 ```git clone https://github.com/909oce/powermenu-tui.git```
+
+Use arrow keys to move and enter to select.
+
 # Hyprland Example
 ![image](preview.png)
 
