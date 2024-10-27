@@ -1,7 +1,8 @@
 # Installation
 ```git clone https://github.com/909oce/powermenu-tui```
 # Hyprland Example
-![screenshot](https://github.com/909oce/powermenu-tui/preview.png)
+![image](https://github.com/909oce/powermenu-tui/preview.png)
+
 hyprland.conf
 ```
 bind = SUPER SHIFT, L, exec, pkill python || kitty --class powermenu -e python $scriptsDir/power/menu.py
