@@ -20,9 +20,9 @@ def apply_custom_colors(stdscr):
     curses.init_pair(2, curses.COLOR_WHITE, -1)
 
 def handle_keys(stdscr, key, items, current_row):
-    if key == curses.KEY_UP:
+    if key == curses.KEY_UP or key == ord('k'):
         current_row = (current_row - 1) % len(items)
-    elif key == curses.KEY_DOWN:
+    elif key == curses.KEY_DOWN or key == ord('j'):
         current_row = (current_row + 1) % len(items)
     elif key == ord('q') or key == ord('Q'):
         return 'quit', current_row

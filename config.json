@@ -1,17 +1,17 @@
 {
-    "items": [
-        {
-            "title": "power off",
-            "command": "systemctl poweroff"
-        },
-        {
-            "title": "restart",
-            "command": "systemctl reboot"
-        },
-        {
-            "title": "sleep",
-            "command": "systemctl suspend"
-        }
-    ]
+  "items": [
+    {
+      "title": "power off",
+      "command": "systemctl poweroff"
+    },
+    {
+      "title": "restart",
+      "command": "systemctl reboot"
+    },
+    {
+      "title": "sleep",
+      "command": "systemctl suspend"
+    }
+  ]
 }
 
