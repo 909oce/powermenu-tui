@@ -16,8 +16,8 @@ def apply_custom_colors(stdscr):
     curses.start_color()
     curses.use_default_colors()  
 
-    curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_WHITE)
-    curses.init_pair(2, curses.COLOR_WHITE, -1)
+    curses.init_pair(1, 0, 15)
+    curses.init_pair(2, -1, -1)
 
 def handle_keys(stdscr, key, items, current_row):
     if key == curses.KEY_UP or key == ord('k'):
