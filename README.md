@@ -1,3 +1,5 @@
+# (DEPRECATED) All repositories moved to https://git.909.wtf
+
 # Usage
 ```git clone https://github.com/909oce/powermenu-tui.git```
 
